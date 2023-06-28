@@ -4,16 +4,19 @@
 }
 body{
     font-family: tahoma;
+    background-image: url(https://images.unsplash.com/photo-1521459467264-802e2ef3141f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
 }
 h1{
     text-align: center;
     margin-top: 40px;
+    color: white;
+    background-color: black;
 }
 #container{
     margin: 15px auto 0 auto;
     width: 80%;
     text-align: center;
-    background-color: magenta;
+    background-color: grey;
     border-radius: 10px;
     padding: 20px;
 
@@ -32,4 +35,11 @@ h1{
 }
 label{
     font-size: 20px;
+}
+body footer{
+    text-align: center;
+    margin-top: 350px;
+    color: aliceblue;
+    background-color: black;
+
 }
