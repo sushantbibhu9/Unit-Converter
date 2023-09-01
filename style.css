@@ -1,45 +1,55 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: tahoma;
-    background-image: url(https://images.unsplash.com/photo-1521459467264-802e2ef3141f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+body {
+  font-family: "Roboto Mono", "Roboto Mono", "Vazirmatn";
+  background-color: #323437;
 }
-h1{
-    text-align: center;
-    margin-top: 40px;
-    color: white;
-    background-color: black;
+h1 {
+  text-align: center;
+  color: #d1d0c5;
 }
-#container{
-    margin: 15px auto 0 auto;
-    width: 80%;
-    text-align: center;
-    background-color: grey;
-    border-radius: 10px;
-    padding: 20px;
-
+h1 img {
+  height: 50px;
+  background-color: #e2b714;
+  margin: 10px;
 }
-.input-div{
-    display: inline-block;
+#container {
+  margin: 140px auto 0 auto;
+  width: 60%;
+  text-align: center;
+  background-color: #b7261e;
+  border-radius: 34px;
+  padding: 20px;
+  color: #e2b714;
 }
-.input{
-    padding: 5px 10px;
-    margin: 10px;
-    font-size: 30px;
-    font-weight: bold;
-    width: 200px;
-    text-align: center;
-    border-radius: 10px;
+.input-div {
+  display: inline-block;
 }
-label{
-    font-size: 20px;
+.input {
+  padding: 10px 17px;
+  margin: 15px;
+  font-size: 42px;
+  font-weight: bold;
+  width: 200px;
+  text-align: center;
+  border-radius: 33px;
+  background-color: #323437;
+  color: #e2b714;
 }
-body footer{
-    text-align: center;
-    margin-top: 350px;
-    color: aliceblue;
-    background-color: black;
-
+label {
+  font-size: 20px;
+}
+article {
+  display: block;
+  block-size: 250px;
+  color: #e2b714;
+  margin: 50px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  margin-top: 350px;
+  color: #d1d0c5;
 }
